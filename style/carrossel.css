@@ -11,7 +11,8 @@
 .swiper-slide img {
     width: 100%;
 }
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev, 
+.swiper-button-next {
     display: none;
 }
 
@@ -23,9 +24,36 @@
 .card__descrição {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0.5em;
 }
  
 .card__botões {
     display:flex;
     justify-content: space-between;
+}           
+.botões {
+    display: flex;
+}
+
+.card {
+ background: var(--branco);
+ box-shadow: 0px 4px 4px rgba(255, 0, 208, 0.25);
+ border-radius: 10px;
+ margin: 1em;
+ padding: 1em;
+
+}
+.descrição__titulo{
+    color:blueviolet;
+    font-weight: 700;
+}
+.descrição__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descrição__texto {
+    font-size: 14px;
 }
